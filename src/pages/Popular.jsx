@@ -3,6 +3,7 @@ import { HeroNews } from '../components'
 
 export default function Popular() {
   return (
-    <div className='max-w-[1440px] m-auto'>Popular</div>
+    <div className='max-w-[1440px] m-auto px-[30px]'>Popular
+    <HeroNews /></div>
   )
 }

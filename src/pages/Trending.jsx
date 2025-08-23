@@ -3,6 +3,7 @@ import { HeroNews } from '../components'
 
 export default function Trending() {
   return (
-    <div className='max-w-[1440px] m-auto'>Trending</div>
+    <div className='max-w-[1440px] m-auto px-[30px]'>Trending
+    <HeroNews /></div>
   )
 }
