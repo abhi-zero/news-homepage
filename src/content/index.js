@@ -56,19 +56,19 @@ export const newSection = [
 export const other = [
     {
         serialNo : '01',
-        imgUrl : img1,
+        img : img1,
         title: 'Reviving Retro PCs',
         body : 'What happens when old PCs are given modern upgrades?'
     },
      {
         serialNo : '02',
-        imgUrl : img2,
+        img : img2,
         title: 'Top 10 Laptops of 2022',
         body : 'Our best picks for various needs and budgets.',
     },
      {
         serialNo : '03',
-        imgUrl : img3,
+        img : img3,
         title: 'The Growth of Gaming',
         body : 'How the pandemic has sparked fresh opportunities.'
     }
