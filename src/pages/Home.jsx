@@ -10,7 +10,7 @@ const Home = () => {
       <div className="md:col-start-1  lg:col-start-1 lg:col-end-3">
         <HeroNews />
       </div>
-      <div className="md:col-start-2 lg:col-start-3"
+      <div className="md:col-start-2 lg:col-start-3 cursor-pointer"
        onClick={()=>navigate('/new')}
        >
         <NewArticles />

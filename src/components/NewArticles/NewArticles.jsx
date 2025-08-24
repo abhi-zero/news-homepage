@@ -10,8 +10,8 @@ export default function NewArticles() {
         <div>
             <ul className=''>
                 {newSection.map((news)=> (
-                    <li key={news.title} className='pb-7 pt-6 last:border-b-0 border-b-2 border-[#5D5F79]'>
-                        <h2 className='text-[#FFFDFA] text-2xl leading-10 '>{news.title}</h2>
+                    <li key={news.title} className='group pb-7 pt-6 last:border-b-0 border-b-2 border-[#5D5F79] '>
+                        <h2 className='text-[#FFFDFA] text-2xl leading-10 group-hover:text-[#F15E50] transition-colors duration-300 ease-in-out'>{news.title}</h2>
                         <p className='text-[#C5C6CE]'>{news.body}</p>
                     </li>
                 ))}
