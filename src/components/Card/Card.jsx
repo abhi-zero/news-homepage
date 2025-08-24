@@ -1,26 +1,27 @@
 import React from 'react'
 
-export default function Card(
+export default function Card({
   imgUrl,
   title,
   body,
   num
-) {
+})   
+{
+    console.log(imgUrl);
   return (
-    <div className='grid grid-cols-2'>
+    <div  className='max-w-[460px] grid grid-cols-3 md:grid-cols-5 gap-5 items-center-safe cursor-pointer'>
       <div
         className='col-start-1'
       >
-        <img src={imgUrl} alt={title} />
+        <img className='w-[80px] object-cover md:w-[110px] md:h-[120px]' src={imgUrl} alt={title} />
       </div>
       <div
-        className='col-start-2'
+        className='col-start-2 col-end-4 md:col-end-6'
       >
-        <h2>{num}</h2>
-        <h3>{title}</h3>
-        <p>{body}</p>
+        <h2 className='text-2xl md:text-4xl font-bold text-[#F15E50]'>{num}</h2>
+        <h3 className='font-bold md:text-xl text-[#00001A]'>{title}</h3>
+        <p className='h-[3rem] text-ellipsis overflow-x-hidden'>{body}</p>
       </div>
-
     </div>
   )
 }
